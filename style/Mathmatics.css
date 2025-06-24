@@ -1,0 +1,146 @@
+body{
+    background-color: rgba(238, 227, 127, 0.945);
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 50px 50px ;
+    padding:0px 0px;
+}
+
+.tagline{
+    font-style: italic;
+}
+
+.all-courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+header {
+    background-color: rgb(12, 116, 57);
+    color: rgb(0, 0, 0);
+    border-radius: 200px 10px;
+    padding: 16px 0;
+    text-align: center;
+    box-shadow: 0px 20px 50px #000000;
+}
+
+.Mathematics-grid {
+    font-style: italic;
+        grid-template-columns: repeat(3,1fr);
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.logo span {
+    color: #ffd700;
+    font-weight: normal;
+}
+
+nav {
+    padding: 10px;  
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 50px
+}
+
+.home-button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50px 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.all-courses  .price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #009688;
+}
+.home-button a {
+    color: rgb(7, 88, 42);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.home-button:hover {
+    background-color: #b9c56c;
+}
+
+footer {
+    background-color: rgb(12, 116, 57);
+    color: rgb(3, 3, 3);
+    text-align: center;
+    padding: 10px;
+    margin-top: 120px;
+    width: 100%;
+    border-radius: 200px 10px;
+    font-style: italic;
+}
+
+.footer p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.S1, .S2, .S3, .S4, .S5, .S6, .S7, .S8, .S9 {
+    font-style: italic;
+    text-align: center;
+}
+
+section h3, section p {
+    text-align: center;
+}
+
+
+.Mathematics-card {
+    grid-template-columns: repeat(3,1fr);
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 60px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 350px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.Mathematics-card img {
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.btn-subscribe {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #388E3C;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn-subscribe:hover {
+  background-color: #ffd700;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
