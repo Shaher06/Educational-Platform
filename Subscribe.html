@@ -32,19 +32,26 @@
       padding: 10px;
       border: 1px solid #ccc;
       border-radius: 6px;
+      margin-bottom: 30px;
     }
-    button {
-      margin-top: 20px;
-      width: 100%;
-      padding: 12px;
-      background-color: #4a6572;
+    .subscribe-button {
+      padding: 15px 35px;
+      background: linear-gradient(135deg, #4e9af1, #1c6dd0);
       color: white;
-      border: none;
-      border-radius: 6px;
-      font-size: 16px;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 18px;
+      font-weight: 600;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+      margin-left: 25%
+     
     }
-    button:hover {
-      background-color: #3a505a;
+
+    .subscribe-button:hover {
+      background: linear-gradient(135deg, #1c6dd0, #4e9af1);
+      transform: scale(1.08);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
     }
   </style>
 </head>
@@ -64,8 +71,7 @@
 
       <label for="corse">Choose Corse</label>
       <input type="text" id="corse" name="corse" required />
-
-      <button type="submit">Confirm Subscription</button>
+      <a href="./index.html" class="subscribe-button">Confirm Subscription</a>
     </form>
   </div>
 </body>
