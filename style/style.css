@@ -399,3 +399,423 @@ color:orange;
     font-size: 1.5em;
     font-weight: 700;
 }
+@import url("https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:wght@400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    background-color: #0f172a;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #0f172a;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 130px;
+    margin: auto;
+}
+.logo{
+    font-family: "Miniver", sans-serif;
+    color: wheat;
+    padding: 45px 32px;
+    font-size: 35px;
+}
+.logo span{
+    color: red;
+    font-family: "Miniver", sans-serif;
+    font-size: 35px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 50px 32px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: wheat;
+    font-weight: bold;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: red;
+}
+.content{
+    margin-left: 8%;
+    margin-top: 12%;
+}
+.content .text{
+    width: 100%;
+    line-height: 64px;
+    color: wheat;
+}
+.content .text h5{
+    font-size: 20px ;
+}
+.content .text h2{
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+.content .text h2 span{
+    color: red;
+}
+.Science{
+    text-decoration: none;
+    color: white;
+    background-color: #f9004d;
+    padding: 8px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px  black , 0px 0px 8px #858585;
+    transition: 0.5s;
+    margin-right: 45px;
+}
+.Science:hover{
+    background: transparent;
+    outline: none;
+    border: #f9004d 2px solid ;
+}
+.math{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 255, 255, 0.756);
+    padding: 8px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px  black , 0px 0px 8px #858585;
+    transition: 0.5s;
+}
+.math:hover{
+    background: transparent;
+    outline: none;
+    border: aqua 2px solid ;
+}
+.content .img img{
+    border-radius: 200px;
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    top: 300px;
+    right: 100px;
+}
+.section-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:  darkslateblue; 
+}
+.section-login form{
+    width: 420px;
+    color: #FFF;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid #fff;
+}
+form h1{
+    font-size: 36px;
+    text-align: center;
+}
+form .login-contain{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+.login-contain input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px  solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 15px;
+    color: #FFF;
+    padding: 20px 20px;
+}
+.login-contain input::placeholder{
+    color: #FFF;   
+}
+.login-contain i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    font-size: 15px;
+}
+form .forget{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+form .forget a{
+    text-decoration: none;
+    color: #FFF;
+}
+form .forget a:hover{
+    text-decoration: underline;
+}
+form .Btn{
+    width: 100%;
+    height: 45px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #FFF;
+    color: black;
+    text-align: center;    
+    display: flex; 
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 40px;
+}
+form .Btn:hover{
+    background: transparent;
+    color: #FFF;
+    border: 2px solid #FFF;
+}
+form .register{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+form .register a{
+    text-decoration: none;
+    color: #FFF;
+}
+form .register a:hover{
+    text-decoration: underline;
+}
+.section-about{
+    background-color: darkgreen;
+    min-height: 100vh;
+    width: 100%;  
+}
+.section-about h1{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding-top: 40px;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.section-about .about-info{
+    width: 50%;
+    margin: 0 60px;
+}
+.section-about .about-info p{
+    color: #fff;
+    padding-bottom: 10px;
+    margin-top: 30%;
+    line-height: 2.5;
+}
+.section-about .img-us{
+    position: absolute;
+    top:400px;
+    right: 30px;
+}
+.section-about .img-us img{
+    width: 80%;
+    height: 100%;
+    border-radius: 50px;
+}
+.section-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: darkslategrey;
+}
+.section-register form{
+    width: 420px;
+    color: #FFF;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid #fff;
+}
+form h1{
+    font-size: 36px;
+    text-align: center;
+}
+form .login-contain{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+.login-contain input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px  solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 15px;
+    color: #FFF;
+    padding: 20px 20px;
+}
+.login-contain input::placeholder{
+    color: #FFF;   
+}
+form .Login{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+form .Login a{
+    text-decoration: none;
+    color: #FFF;
+}
+form .Login a:hover{
+    text-decoration: underline;
+}
+.section-contact{
+  background-image: url(./contact.jpg);
+  background-position: center;
+  padding: 50px 0 100px;
+  min-height: 100vh;
+
+}
+.title-contact{
+  display: flex;
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 150px; 
+  margin-top: 50px;
+  color: darkorange;
+}
+.section-contact .section-content{
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.section-contact .contact-list{
+    margin-left: 100px;
+}
+.section-contact .contact-list .contact-info{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 30px 90px;
+  color: darkorange;
+}
+.section-contact .contact-list .contact-info i,p{
+  font-size: 1em;
+}
+.section-contact .social-link-list{
+    position: absolute;
+    top: 800px;
+    left: 600px;
+    font-size: 30px;
+}
+.section-contact .social-link-list .social-link{
+  color: yellow;
+  transition: 0.2s ease;
+  padding-left: 50px;
+}
+.section-contact .social-link-list .social-link:hover{
+color:orange;
+}
+.section-contact .contact-form{
+  margin-right: 30px;
+}
+.section-contact .contact-form .form-input{
+  width: 100%;
+  height: 50px;
+  background: #fff; 
+  outline: none;
+  border: 1px solid #CCC;
+  border-radius: 40px;
+  padding: 0 16px;
+  margin-bottom: 18px;
+}
+.section-contact .contact-form .form-input:focus{
+  border-color: #F3961C;
+}
+.section-contact .contact-form textarea .form-input{
+  height: 100px;
+  padding: 20px;
+  resize: vertical;
+}
+.section-contact .contact-form .form-submit{
+  padding: 10px 26px;
+  color: white;
+  background-color: #3b141c;
+  font-size: 1.2em;
+  font-weight: 200;
+  border-radius: 30px;
+  border: 1px solid #3b141C;
+  transition: 0.3s ease;
+} 
+.section-contact .contact-form .form-submit:hover{
+  color: #3b141C;
+  background: transparent;
+}
+.section-services{
+    min-height: 100vh;
+}
+.title-services{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+.services-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section-services .card{
+    width: 25em;
+    background-color: #FFF;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin-right: 15px;
+    transition: 0.7s ease;
+    text-align: center;
+}
+.section-services .card:hover{
+    transform: scale(1.1);
+}
+
+.section-services .services-content .card h2{
+    color: blue;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+/* Responsive */
+@media (max-width: 600px) {
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .personal-summary {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
